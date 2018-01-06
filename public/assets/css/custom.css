@@ -1,0 +1,34 @@
+.pgBox {
+	border-style: groove;
+	border-width: 5px;
+	border-color: blue;
+	height: 75vh;
+	border-radius: 10%;
+	padding: 25px;
+}
+
+.menuItm {
+	border-style: groove;
+	border-width: 2px;
+	border-color: blue;
+	border-radius: 10%;
+	font-size: 30px;
+	margin: 5px;
+}
+
+.menuItm:hover {
+	background-color: black;
+}
+
+.plateItm {
+	border-style: groove;
+	border-width: 2px;
+	border-color: blue;
+	border-radius: 10%;
+	font-size: 20px;
+	margin: 5px;
+}
+
+.plateItm:hover {
+	background-color: black;
+}
