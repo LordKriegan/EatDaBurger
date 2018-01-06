@@ -35,8 +35,8 @@ var orm = {
         });
     },
     insertOne: function(tableName, cols, vals, cb) {
-        var queryStr = "INSERT INTO " + tableName + " (";
-        queryStr += " (" + cols.toString(); + ") ";
+        var queryStr = "INSERT INTO " + tableName;
+        queryStr += " (" + cols.toString() + ") ";
         queryStr += "VALUES (";
         queryStr += printQuestionMarks(vals.length);
         queryStr += ");"
