@@ -31,3 +31,16 @@
 .plateItm:hover {
 	background-color: black;
 }
+
+.devouredItm {
+	border-style: groove;
+	border-width: 2px;
+	border-color: blue;
+	border-radius: 10%;
+	font-size: 20px;
+	margin: 5px;
+}
+
+.devouredItm:hover {
+	background-color: black;
+}
